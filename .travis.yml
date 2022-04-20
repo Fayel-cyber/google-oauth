@@ -1,10 +1,7 @@
 language: python
-python: 2.7
+python: 3.8
 env:
-  - TOX_ENV=py27
-  - TOX_ENV=py33
-  - TOX_ENV=py34
-  - TOX_ENV=cov
+  - TOX_ENV=py38
 before_install:
 - openssl aes-256-cbc -K $encrypted_12db36da23be_key -iv $encrypted_12db36da23be_iv
   -in keys.tar.enc -out keys.tar -d
